@@ -8,7 +8,8 @@
   },
   "author": "OM",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^8.3.0"
-  }
+  "devDependencies": {
+    "cypress": "^13.7.2"
+  },
+  "keywords": []
 }
