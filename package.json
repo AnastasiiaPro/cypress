@@ -4,7 +4,10 @@
   "description": "first tests with Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "chrome": "cypress run --headed --config-file cypress_2.config.js",
+    "chrome": "cypress run --headless --config-file cypress_2.config.js",
+    "chrome": "cypress run --headed --config-file cypress.config.mobile.js",
+    "chrome": "cypress run --headless --config-file cypress.config.mobile.js"
   },
   "author": "OM",
   "license": "ISC",
